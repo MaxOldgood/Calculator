@@ -44,7 +44,8 @@ function calc (operation, a, b) {
     div.setAttribute("onclick", "this.remove()");
 }
 
-ELEMENTS.DARK.onclick = function () {
+
+ELEMENTS.DARK.onclick = function theme () {
     ELEMENTS.CALC_BODY.style.backgroundColor="#383838";
     ELEMENTS.DARK.style.backgroundColor="white";
     ELEMENTS.DARK.value="светлая тема";
